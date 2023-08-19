@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "arfforniamod",
+	"version": "${version}",
+	"name": "Arffornia Mod",
+	"description": "Official mod of Arffornia, by The_Gost_sniper.",
+	"authors": [
+		"The_Gost_sniper"
+	],
+	"contact": {
+		"homepage": "http://arffornia.tk/",
+		"sources": "https://github.com/TheGostsniperfr"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.thegostsniper.arfforniamod.ArfforniaMod"
+		],
+		"client": [
+			"net.thegostsniper.arfforniamod.ArfforniaModClient"
+		],
+		"fabric-datagen": [
+			"net.thegostsniper.arfforniamod.ArfforniaModDataGenerator"
+		]
+	},
+	"mixins": [
+		"arfforniamod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
