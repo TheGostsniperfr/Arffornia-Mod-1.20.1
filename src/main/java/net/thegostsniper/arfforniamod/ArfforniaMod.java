@@ -2,6 +2,8 @@ package net.thegostsniper.arfforniamod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.thegostsniper.arfforniamod.items.ModItemGroup;
+import net.thegostsniper.arfforniamod.items.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,7 +13,7 @@ public class ArfforniaMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+        ModItemGroup.registerItemGroups();
 	}
 }

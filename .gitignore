@@ -1,18 +1,32 @@
-.gradle
-**/build/
-!src/**/build/
-
-# Ignore Gradle GUI config
-gradle-app.setting
-
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
-
-# Cache of project
-.gradletasknamecache
-
-# Eclipse Gradle plugin generated files
-# Eclipse Core
+# Emacs backup files
+*~
+*#
+.#*
+# Vim file artifacts
+.*.sw*
+.DS_Store
 .project
-# JDT-specific (Eclipse Java Development Tools)
+# omit Go vendor directories
+vendor/
+.vscode
+.gradle
+.idea
+# Dependency directories
+node_modules/
+# Ignore Gradle build output directory
+build
+package-lock.json
+
+# Eclipse
 .classpath
+.settings
+
+# installed Fabric binaries etc.
+bin/
+builders/
+config/
+external-chaincode/
+install-fabric.sh
+
+# override the ignore of all config/ folders
+!full-stack-asset-transfer-guide/infrastructure/sample-network/config
