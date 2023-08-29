@@ -23,8 +23,8 @@ Caused by: java.lang.ExceptionInInitializerError
 Caused by: net.minecraft.util.InvalidIdentifierException: Non [a-z0-9/._-] character in path of location: arfforniamod:rawSilicon
 	at net.minecraft.util.Identifier.validatePath(Identifier.java:370)
 	at net.minecraft.util.Identifier.<init>(Identifier.java:129)
-	at net.thegostsniper.arfforniamod.items.ModItems.registerItem(ModItems.java:23)
-	at net.thegostsniper.arfforniamod.items.ModItems.<clinit>(ModItems.java:15)
+	at net.thegostsniper.arfforniamod.item.ModItems.registerItem(ModItems.java:23)
+	at net.thegostsniper.arfforniamod.item.ModItems.<clinit>(ModItems.java:15)
 	... 10 more
 
 

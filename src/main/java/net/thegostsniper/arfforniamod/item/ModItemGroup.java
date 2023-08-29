@@ -1,4 +1,4 @@
-package net.thegostsniper.arfforniamod.items;
+package net.thegostsniper.arfforniamod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.thegostsniper.arfforniamod.ArfforniaMod;
+import net.thegostsniper.arfforniamod.block.ModBlocks;
 
 public class ModItemGroup {
     public static final ItemGroup SILICON_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -15,7 +16,9 @@ public class ModItemGroup {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.silicon"))
                     .icon(()-> new ItemStack(ModItems.RAW_SILICON)).entries((displayContext, entries) -> {
         entries.add(ModItems.RAW_SILICON);
-        entries.add(ModItems.SILICON_ORE);
+        entries.add(ModBlocks.SILICON_ORE);
+        entries.add(ModBlocks.SILICON_BLOCK);
+
 
 
     }).build());

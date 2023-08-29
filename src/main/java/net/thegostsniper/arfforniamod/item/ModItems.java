@@ -1,4 +1,4 @@
-package net.thegostsniper.arfforniamod.items;
+package net.thegostsniper.arfforniamod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -13,12 +13,10 @@ import net.thegostsniper.arfforniamod.ArfforniaMod;
 public class ModItems {
 
     public static final Item RAW_SILICON = registerItem("raw_silicon", new Item(new FabricItemSettings()));
-    public static final Item SILICON_ORE = registerItem("silicon_ore", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
 
         entries.add(RAW_SILICON);
-        entries.add(SILICON_ORE);
     }
 
 

@@ -1,6 +1,10 @@
 {
   "item.arfforniamod.raw_silicon": "Raw silicon",
-  "item.arfforniamod.silicon_ore": "Silicon ore",
+
+
+  "block.arfforniamod.silicon_ore": "Silicon ore",
+  "block.arfforniamod.silicon_block": "Silicon block",
+
 
 
   "itemgroup.silicon": "Silicon Mod"
