@@ -27,12 +27,13 @@ public class ModItemGroup {
         entries.add(ModItems.SILICON_PLATE);
         entries.add(ModItems.URANIUM_PLATE);
 
-
-
-
-
         //blocks :
         entries.add(ModBlocks.SILICON_ORE);
+        entries.add(ModBlocks.BAUXITE_ORE);
+        entries.add(ModBlocks.LEAD_ORE);
+        entries.add(ModBlocks.URANIUM_ORE);
+
+
         entries.add(ModBlocks.SILICON_BLOCK);
 
 

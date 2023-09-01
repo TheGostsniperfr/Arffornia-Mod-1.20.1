@@ -12,6 +12,10 @@
 
 
   "block.arfforniamod.silicon_ore": "Silicon ore",
+  "block.arfforniamod.bauxite_ore": "Bauxite ore",
+  "block.arfforniamod.lead_ore": "Lead ore",
+  "block.arfforniamod.uranium_ore": "Uranium ore",
+
   "block.arfforniamod.silicon_block": "Silicon block",
 
 
