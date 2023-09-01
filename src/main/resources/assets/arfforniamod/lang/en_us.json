@@ -2,6 +2,15 @@
   "item.arfforniamod.raw_silicon": "Raw silicon",
 
 
+  "item.arfforniamod.coal_plate": "Coal plate",
+  "item.arfforniamod.gold_plate": "Gold plate",
+  "item.arfforniamod.iron_plate": "Iron plate",
+  "item.arfforniamod.lead_plate": "Lead plate",
+  "item.arfforniamod.redstone_plate": "Redstone plate",
+  "item.arfforniamod.silicon_plate": "Silicon plate",
+  "item.arfforniamod.uranium_plate": "Uranium plate",
+
+
   "block.arfforniamod.silicon_ore": "Silicon ore",
   "block.arfforniamod.silicon_block": "Silicon block",
 

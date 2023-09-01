@@ -14,9 +14,19 @@ public class ModItems {
 
     public static final Item RAW_SILICON = registerItem("raw_silicon", new Item(new FabricItemSettings()));
 
+    //plates :
+    public static final Item COAL_PLATE = registerItem("coal_plate", new Item(new FabricItemSettings()));
+    public static final Item GOLD_PLATE = registerItem("gold_plate", new Item(new FabricItemSettings()));
+    public static final Item IRON_PLATE = registerItem("iron_plate", new Item(new FabricItemSettings()));
+    public static final Item LEAD_PLATE = registerItem("lead_plate", new Item(new FabricItemSettings()));
+    public static final Item REDSTONE_PLATE = registerItem("redstone_plate", new Item(new FabricItemSettings()));
+    public static final Item SILICON_PLATE = registerItem("silicon_plate", new Item(new FabricItemSettings()));
+    public static final Item URANIUM_PLATE = registerItem("uranium_plate", new Item(new FabricItemSettings()));
+
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
 
-        entries.add(RAW_SILICON);
+
     }
 
 
