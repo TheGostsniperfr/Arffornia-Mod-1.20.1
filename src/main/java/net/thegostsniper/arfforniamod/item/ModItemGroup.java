@@ -15,8 +15,12 @@ public class ModItemGroup {
             new Identifier(ArfforniaMod.MOD_ID, "silicon"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.silicon"))
                     .icon(()-> new ItemStack(ModItems.RAW_SILICON)).entries((displayContext, entries) -> {
-        //items :
+        //raw :
         entries.add(ModItems.RAW_SILICON);
+        entries.add(ModItems.RAW_LEAD);
+        entries.add(ModItems.RAW_BAUXITE);
+        entries.add(ModItems.RAW_URANIUM);
+
 
         //plates :
         entries.add(ModItems.COAL_PLATE);

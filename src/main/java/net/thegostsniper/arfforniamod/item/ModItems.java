@@ -12,7 +12,12 @@ import net.thegostsniper.arfforniamod.ArfforniaMod;
 
 public class ModItems {
 
+    //raw
     public static final Item RAW_SILICON = registerItem("raw_silicon", new Item(new FabricItemSettings()));
+    public static final Item RAW_BAUXITE = registerItem("raw_bauxite", new Item(new FabricItemSettings()));
+    public static final Item RAW_LEAD = registerItem("raw_lead", new Item(new FabricItemSettings()));
+    public static final Item RAW_URANIUM = registerItem("raw_uranium", new Item(new FabricItemSettings()));
+
 
     //plates :
     public static final Item COAL_PLATE = registerItem("coal_plate", new Item(new FabricItemSettings()));
