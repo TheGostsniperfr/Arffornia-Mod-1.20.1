@@ -24,6 +24,13 @@ public class ModItems {
     public static final Item URANIUM_PLATE = registerItem("uranium_plate", new Item(new FabricItemSettings()));
 
 
+    //ingots :
+    public static final Item LEAD_INGOT = registerItem("lead_ingot", new Item(new FabricItemSettings()));
+    public static final Item SILICON_INGOT = registerItem("silicon_ingot", new Item(new FabricItemSettings()));
+    public static final Item URANIUM_INGOT = registerItem("uranium_ingot", new Item(new FabricItemSettings()));
+
+
+
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
 
 

@@ -11,6 +11,11 @@
   "item.arfforniamod.uranium_plate": "Uranium plate",
 
 
+  "item.arfforniamod.lead_ingot": "Lead ingot",
+  "item.arfforniamod.silicon_ingot": "Silicon ingot",
+  "item.arfforniamod.uranium_ingot": "Uranium ingot",
+
+
   "block.arfforniamod.silicon_ore": "Silicon ore",
   "block.arfforniamod.bauxite_ore": "Bauxite ore",
   "block.arfforniamod.lead_ore": "Lead ore",

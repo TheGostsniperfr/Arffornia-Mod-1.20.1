@@ -18,7 +18,7 @@ public class ModItemGroup {
         //items :
         entries.add(ModItems.RAW_SILICON);
 
-        //Plates :
+        //plates :
         entries.add(ModItems.COAL_PLATE);
         entries.add(ModItems.GOLD_PLATE);
         entries.add(ModItems.IRON_PLATE);
@@ -26,6 +26,11 @@ public class ModItemGroup {
         entries.add(ModItems.REDSTONE_PLATE);
         entries.add(ModItems.SILICON_PLATE);
         entries.add(ModItems.URANIUM_PLATE);
+
+        //ingots :
+        entries.add(ModItems.LEAD_INGOT);
+        entries.add(ModItems.SILICON_INGOT);
+        entries.add(ModItems.URANIUM_INGOT);
 
         //blocks :
         entries.add(ModBlocks.SILICON_ORE);
