@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "arfforniamod:bauxite_ore",
+    "arfforniamod:lead_ore",
+    "arfforniamod:silicon_ore",
+    "arfforniamod:uranium_ore",
+
+    "arfforniamod:lead_block",
+    "arfforniamod:silicon_block",
+    "arfforniamod:uranium_block"
+  ]
+}
