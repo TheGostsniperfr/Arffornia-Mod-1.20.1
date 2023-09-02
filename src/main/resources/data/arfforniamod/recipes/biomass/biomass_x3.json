@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "materials",
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:carrot"
+      },
+      {
+      "item": "minecraft:wheat"
+      },
+      {
+        "item": "minecraft:potato"
+      },
+      {
+        "item": "minecraft:poisonous_potato"
+      },
+      {
+        "item": "minecraft:kelp"
+      },
+      {
+        "item": "minecraft:sweet_berries"
+      },
+      {
+        "item": "minecraft:glow_berries"
+      },
+      {
+        "item": "minecraft:apple"
+      },
+      {
+        "item": "minecraft:fern"
+      }
+    ]
+
+  ],
+  "result": {
+    "item": "arfforniamod:biomass",
+    "count": 3
+  }
+}
+
