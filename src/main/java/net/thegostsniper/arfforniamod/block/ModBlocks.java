@@ -28,6 +28,12 @@ public class ModBlocks {
     public static final Block SILICON_BLOCK = registerBlock("silicon_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
+    public static final Block URANIUM_BLOCK = registerBlock("uranium_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
+    public static final Block LEAD_BLOCK = registerBlock("lead_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+
     private  static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(ArfforniaMod.MOD_ID, name), block);

@@ -44,6 +44,8 @@ public class ModItemGroup {
 
 
         entries.add(ModBlocks.SILICON_BLOCK);
+        entries.add(ModBlocks.URANIUM_BLOCK);
+        entries.add(ModBlocks.LEAD_BLOCK);
 
 
 
