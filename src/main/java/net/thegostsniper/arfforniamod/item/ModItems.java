@@ -35,6 +35,11 @@ public class ModItems {
     public static final Item URANIUM_INGOT = registerItem("uranium_ingot", new Item(new FabricItemSettings()));
 
 
+    //other :
+
+    public static final Item BIOMASS = registerItem("biomass", new Item(new FabricItemSettings()));
+
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
 

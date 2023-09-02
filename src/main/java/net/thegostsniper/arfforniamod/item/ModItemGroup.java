@@ -48,6 +48,10 @@ public class ModItemGroup {
         entries.add(ModBlocks.LEAD_BLOCK);
 
 
+        //other :
+        entries.add(ModItems.BIOMASS);
+
+
 
 
     }).build());
